@@ -1,0 +1,147 @@
+body {
+    background: #D8D8D8;
+}
+
+.navbar-nav a{
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+}
+.logo {
+    background-color: #fff;
+    border-radius: 2px;
+}
+.icons a {
+    color: #fff;
+    margin-right: 10px;
+}
+.icons i {
+    font-size: 20px;
+}
+.ind,
+.upper-indicator {
+    position: absolute;
+    bottom: -40px;
+}
+.ind li, 
+.upper-indicator li{
+   background-color:#949494;
+   height: 2px;
+   width: 40px;
+}
+.carousel {
+    position: relative;
+}
+
+.slider-btn-left,
+.slider-btn-right {
+    position: absolute;
+    background-color: #616161;
+    border-radius: 50px;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    border: 3px solid #fff;
+    padding: 5px;
+    
+    
+
+}
+
+.slider-btn-left {
+    left: -2em;
+    top: 40%;
+}
+.slider-btn-right {
+    right: -2em;
+    top: 40%;
+}
+.target {
+    position: relative;
+}
+.carousel-text {
+    position: absolute;
+    bottom: 10px;
+}
+.btn-add {
+    background-color: #A1D242;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.price {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+}
+.game-list .card {
+    margin-bottom: 10px;
+}
+/* .section-list {
+    height: 120px;
+} */
+.card-title {
+        font-size: 14px;
+}
+.product-info i {
+    width: 13px;
+    height: 13px;
+}
+.product-info {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    font-size: 15px;
+}
+.section-wrapper {
+    box-shadow: 0 -1px 0 0 rgba(64,64,64,.4), 
+                0 1px 0 0 rgba(64,64,64,.4);
+}
+.explore {
+    border-left: 1px solid rgba(64,64,64,.4);
+}
+.info-explore span {
+    color: #86328a;
+    font-weight: 500;
+}
+.pad-top {
+    padding-top: 32px;
+}
+
+#multi-item-example {
+    position: relative;
+}
+.left-arr {
+    position: absolute;
+    left: -1em;
+    color: grey;
+   
+}
+.right-arr {
+    position: absolute;
+    right: -1em;
+    color: grey;
+}
+
+#multi-item-two-rows .card {
+    margin: 10px;
+}
+.nav-2 a {
+    color: grey;
+}
+.list-games img{
+   width: 100px;
+   height: 50px;
+}
+.bord-top td {
+    border-top: none;
+}
+.list-games td {
+    border-bottom: 1px solid grey;
+}
