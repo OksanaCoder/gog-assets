@@ -134,14 +134,91 @@ body {
 }
 .nav-2 a {
     color: grey;
+    margin-left: 15px;
 }
 .list-games img{
    width: 100px;
    height: 50px;
 }
+.link {
+    position: relative;
+    text-decoration: none !important;
+}
+.active-color {
+  color: #78387B !important;
+  font-weight: 500;
+  position: relative;
+}
+.active-color::after {
+    content: '';
+    position: absolute;
+    width: 100% !important;
+    height: 3px;
+    margin-top: 5px;
+    display: block;
+    background-color: #78387B;
+}
+.link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    margin-top: 5px;
+    display: block;
+    background: #78387B;
+    transition: all .5s ease;
+    
+}
+.link:hover::after {
+    width: 100%;
+    left: 0;
+    background: #78387B;
+}
+/* .list-games td:nth-child(2) {
+    margin-left: ;
+} */
 .bord-top td {
     border-top: none;
 }
 .list-games td {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #949494;
 }
+footer {
+    background-color: #262626;
+    
+}
+.grid-img img {
+    object-fit: cover;
+}
+.grid-img img:hover {
+    opacity: 0.7;
+    transition: all .5s ease;
+}
+
+.no-des {
+   padding: 1px;
+}
+.footer-list a {
+    margin-right: 16px;
+}
+.social a {
+    margin-right: 10px;
+}
+.active-link {
+    color: #86328a !important;
+}
+.download {
+    background: url('https://menu-static.gog-statics.com/assets/img/galaxy_button_bg.jpg');
+   width: 250px;
+    height: 58px;
+    padding-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.73), inset 0 0 3px 1px #A268BD;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+ 
