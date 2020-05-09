@@ -218,7 +218,13 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
-
+    position: relative;
 }
- 
+.fa-download {
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+}
+.list-menu-footer a {
+    margin: 0 8px 9px;
+}
