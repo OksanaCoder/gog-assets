@@ -81,7 +81,7 @@ body {
     margin-bottom: 10px;
 }
 /* .section-list {
-    height: 120px;
+    height: 200px;
 } */
 .card-title {
         font-size: 14px;
@@ -227,4 +227,30 @@ footer {
 }
 .list-menu-footer a {
     margin: 0 8px 9px;
+}
+.card {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.15);
+}
+
+/* .pad-second-col .col-6 {
+    margin-bottom: 5px; 
+} */
+
+#multi-item-example-3 .card {
+   height: 100%;
+   width: 100%;
+   display: relative;
+   transition: all .2s ease-in-out;
+
+}
+#multi-item-example-3 .card-body {
+    position: absolute;
+    bottom: 0;
+} 
+#multi-item-example-3 img {
+    height: 200px;
+    object-fit: cover;
+}
+#multi-item-example-3 .card:hover {
+    opacity: 0.8;
 }
