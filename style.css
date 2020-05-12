@@ -77,14 +77,26 @@ body {
     font-weight: 600;
     font-size: 22px;
 }
-.game-list .card {
-    margin-bottom: 10px;
+
+#multi-item-example-0 .card,
+#multi-item-example .card {
+    margin-bottom: 5px;
+    margin-left: 5px;
 }
-/* .section-list {
-    height: 200px;
+
+#multi-item-example-0 .card-body { 
+    padding: 0.5em;
+}
+#multi-item-example-0 .card-title {
+    font-size: 12px;
+}
+/* #multi-item-example-0 img {
+    height: 100px;
+    object-fit: cover;
 } */
-.card-title {
-        font-size: 14px;
+.img-first-col {
+    height: 80%;
+    object-fit: cover;
 }
 .product-info i {
     width: 13px;
@@ -130,7 +142,7 @@ body {
 }
 
 #multi-item-two-rows .card {
-    margin: 10px;
+    margin: 2.5px;
 }
 .nav-2 a {
     color: grey;
@@ -138,7 +150,7 @@ body {
 }
 .list-games img{
    width: 100px;
-   height: 50px;
+   height: 100%;
 }
 .link {
     position: relative;
@@ -163,7 +175,7 @@ body {
     position: absolute;
     width: 0;
     height: 3px;
-    margin-top: 5px;
+    margin-top: 23px;
     display: block;
     background: #78387B;
     transition: all .5s ease;
@@ -174,15 +186,21 @@ body {
     left: 0;
     background: #78387B;
 }
-/* .list-games td:nth-child(2) {
-    margin-left: ;
-} */
-.bord-top td {
-    border-top: none;
+
+.list-games {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
-.list-games td {
-    border-bottom: 1px solid #949494;
+.align-end {
+    display: flex;
+    justify-content: flex-end;
 }
+
 footer {
     background-color: #262626;
     
@@ -230,6 +248,7 @@ footer {
 }
 .card {
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.15);
+    border: none;
 }
 
 /* .pad-second-col .col-6 {
@@ -253,4 +272,7 @@ footer {
 }
 #multi-item-example-3 .card:hover {
     opacity: 0.8;
+}
+#multi-item-example-3 .card-title {
+    font-size: 12px;
 }
