@@ -111,6 +111,7 @@ body {
 .price {
     font-size: 15px;
 }
+
 .section-wrapper {
     box-shadow: 0 -1px 0 0 rgba(64,64,64,.4), 
                 0 1px 0 0 rgba(64,64,64,.4);
@@ -195,7 +196,44 @@ body {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    transition: all .4s ease-out;
 }
+.list-games:hover {
+    background: hsla(0,0%,98%,.6);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.15);
+}
+.small-price {
+    font-size: 10px;
+    text-decoration: line-through;
+}
+.new_price-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.sale {
+    margin-right: 8px;
+    border-radius: 2px;
+    background: #78387b;
+    color: #fff;
+    font-weight: 700;
+    padding: 6px 8px;
+}
+.add-to-cart {
+    display: none !important;
+    margin-left: 10px;
+    padding: 6px;
+    background-color: #A1D242;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #7fab34;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.35);
+    
+}
+.list-games:hover .add-to-cart {
+    display: block !important;
+}
+
 .align-end {
     display: flex;
     justify-content: flex-end;
@@ -261,10 +299,12 @@ footer {
    display: relative;
    transition: all .2s ease-in-out;
 
+
 }
 #multi-item-example-3 .card-body {
     position: absolute;
     bottom: 0;
+    line-height: 1.2;
 } 
 #multi-item-example-3 img {
     height: 200px;
@@ -274,5 +314,31 @@ footer {
     opacity: 0.8;
 }
 #multi-item-example-3 .card-title {
-    font-size: 12px;
+    font-size: 16px;
+}
+.item-last-caros {
+    /* margin-left: 5px; */
+    margin-bottom: 5px;
+}
+.time {
+   font-size: 10px;
+}
+
+
+/* .product-info-last i {
+    width: 13px;
+    height: 13px;
+} */
+.product-info-last {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.fa-comment {
+    color: #fff;
+}
+.card-body {
+    width: 100%;
 }
